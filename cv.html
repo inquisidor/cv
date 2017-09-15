@@ -139,9 +139,37 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <div class="w3-container">
           <div  style="display: flex">
             <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-folder-open fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Portafolio</h2>
-            <div style="background-color: yellow;width: 100px;height: 80px;"><a href="">www.mld.com</a></div>
-            <div style="background-color: blue;width: 100px;height: 80px; border-left:5px;"><a href="">www.xemir.com</a></div>
-            <div style="background-color: red;width: 100px;height: 80px; border-left:5px;"><a href="">www.cir.com</a></div>
+            <style>
+                section
+                {
+                   width: 400px;
+                  height: 200px;
+                  border: 1px solid #000;
+                  margin: 0 auto;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                } 
+                .caja1
+                {
+                    background: blue;
+                }
+
+                .caja2
+                {
+                    background: green;
+                }
+
+                .caja3
+                {
+                    background: pink;
+                }
+            </style>
+            <section>
+              <article class="caja1">caja1</article>
+              <article class="caja2">caja2</article>
+              <article class="caja3">caja3</article>
+            </section>
           </div>
           <hr>
         </div>
